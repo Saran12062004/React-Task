@@ -1,0 +1,10 @@
+.container{
+    padding: 50px;
+    height: 10%;
+}
+form{
+    width: 300px;
+    margin-left: 39%;
+    margin-top: 40px;
+    /* margin-top: 10%; */
+}
