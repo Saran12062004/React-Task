@@ -19,8 +19,8 @@ const [count,dispatch] = useReducer(reducer,0)
     <div>
       <h2>UseReduceHook</h2> 
       <h4>Count: {count}</h4>
-      <button onClick={() => {dispatch({type:'increment',payload:100})}} className='btn btn-outline-primary'>increment</button>
-      <button onClick={() => {dispatch({type:'decrement',payload:0})}} className='btn btn-outline-danger'>decrement</button>
+      <button onClick={() => {dispatch({type:'increment',payload:100})}} className='btn btn-outline-primary'>INCREMENT</button>
+      <button onClick={() => {dispatch({type:'decrement',payload:0})}} className='btn btn-outline-danger'>RESET</button>
 
     </div>
   )
