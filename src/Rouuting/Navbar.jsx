@@ -30,6 +30,9 @@ const Navbar = () => {
                              <li className='nav-item'>
                               <Link to='/Pagination' className='nav-link'>Pagination</Link>
                              </li>
+                             <li className='nav-item'>
+                              <Link to='/Usereduce' className='nav-link'>Usereduce</Link>
+                             </li>
                         </ul>
                     </div>
                 </div>

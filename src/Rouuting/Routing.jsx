@@ -9,6 +9,7 @@ import Todo from '../Component/Todo'
 import Counter from '../Component/Counter'
 import LifeCycle from '../Component/LifeCycle'
 import Pagination from '../Component/Pagination'
+import Usereduce from '../Component/Usereduce'
 const Routing = () => {
   return (
     
@@ -21,6 +22,7 @@ const Routing = () => {
         <Route path='/Todo' element={<Todo />} />
         <Route path='/Counter' element={<Counter />} />
         <Route path='/Pagination' element={<Pagination />} />
+        <Route path='/Usereduce' element={<Usereduce />} />
      </Routes>
     
   )
